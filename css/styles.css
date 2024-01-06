@@ -15,7 +15,7 @@ ul {
 
   .title {
 background: #FFF; 
-border-bottom: 1px, #E7E9FC;
+border-bottom: 1px, #e7e9fc;
       
   }
 
@@ -39,9 +39,11 @@ border-bottom: 1px, #E7E9FC;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         display: flex;
+        margin-right: 76px;
       }
   .title-navigation {
       display: flex;
+      align-items: center;
   }
   .title-list {
        display: flex;
@@ -53,6 +55,7 @@ border-bottom: 1px, #E7E9FC;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        gap: 40 px;
   }
   .title-list-item:hover, 
   .title-list-item:focus {
@@ -63,6 +66,7 @@ border-bottom: 1px, #E7E9FC;
   }
   .address-list {
 display: flex;
+padding: 24px 0;
   }
 
   .address_link {
@@ -71,13 +75,17 @@ display: flex;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    gap: 40px;
   }
   .address_link:hover,
   .address_link:focus {
       color: #404bbf;
   }
-  .container {
-      width: 1158px;
+  .header-container {
+      display: flex;
+      margin: o auto;
+      padding: 0 15px 0 15 px; 
+      
   }
   .principles-container {
       display: flex;
@@ -87,6 +95,10 @@ display: flex;
   /*sections*/
   .section_type {
       background-color:#2e2f42;
+  }
+
+  img {
+      display: block;
   }
   .main-phrase {
         color: #FFF;

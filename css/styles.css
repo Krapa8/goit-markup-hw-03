@@ -5,12 +5,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.container {
-    max-width: 1158px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+
 a {
     text-decoration: none;
 }
@@ -25,6 +20,12 @@ ul {
 background: #FFF; 
 border-bottom: 1px solid #e7e9fc;
       
+  }
+  .container {
+max-width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+
   }
 
   .logo {
@@ -53,9 +54,11 @@ border-bottom: 1px solid #e7e9fc;
   .title-navigation {
       display: flex;
       align-items: center;
+      gap: 40px;
   }
   .title-list {
        display: flex;
+       padding: 24px 0;
 }
 
   .title-list-item {

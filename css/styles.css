@@ -24,12 +24,10 @@ border-bottom: 1px solid #e7e9fc;
   .container {
 max-width: 1158px;
 margin: 0 auto;
-padding: 0 15px;
-
-
   }
 
-  .logo {
+
+  .logo-header {
         color:#4d5ae5;
         font-family: Raleway, sans-serif;
         font-size: 18px;
@@ -37,10 +35,9 @@ padding: 0 15px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        display: flex;
         margin-right: 76px;
-
   }
+
   .studio-logo {
         color: #2e2f42;
         font-family: Raleway, sans-serif;
@@ -79,10 +76,13 @@ padding: 0 15px;
   .address-style {
       font-style: normal; 
     padding: 24px 0;
+    margin: auto;
   }
   .address-list {
 display: flex;
 gap: 40px;
+margin: 0;
+padding: 0;
   }
 
   .address_link {
@@ -99,12 +99,12 @@ gap: 40px;
   }
   .header-container {
       display: flex;
-      margin: o auto;
-      padding: 0 15px 0 15 px; 
+
       
   }
   .principles-container {
       display: flex;
+      gap: 24px;
   } 
  
   
@@ -126,6 +126,7 @@ gap: 40px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 496px;
+        margin: 0 auto 48px;
   }
   .button-style {
         color: #ffffff;
@@ -142,6 +143,7 @@ gap: 40px;
         height: 56px;
         border: none;
         border-radius: 4px;
+        margin: 0 auto;
 
   }
   .button-style:hover,
@@ -166,9 +168,7 @@ clip-path: inset(100%);
 clip: rect (0 0 0 0);
 overflow: hidden;
   }
-  .principles-container {
-    gap: 24px;
-  }
+
   .principles-blocks {
     width: calc((100% - 72px) / 4);
   }
@@ -234,7 +234,6 @@ overflow: hidden;
   }
   .ptext {
     color: #434455;
-        text-align: center;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -305,4 +304,16 @@ overflow: hidden;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        max-width: 1158px;
+  }
+
+  h1, 
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  h6, 
+  p {
+    margin: 0;
+    padding: 0;
   }

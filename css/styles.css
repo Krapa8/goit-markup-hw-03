@@ -11,6 +11,8 @@ a {
 }
 ul {
    list-style-type: none; 
+   margin: 0;
+   padding: 0;
 }
 
 
@@ -25,7 +27,7 @@ border-bottom: 1px solid #e7e9fc;
 max-width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
-display: flex;
+
   }
 
 
@@ -58,7 +60,6 @@ display: flex;
   }
   .title-list {
        display: flex;
-       padding: 24px 0;
         gap: 40px;
 }
 
@@ -68,7 +69,6 @@ display: flex;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        gap: 40px;
         padding: 24px 0;
   }
   .title-list-item:hover, 
@@ -78,7 +78,7 @@ display: flex;
   .address-style {
       font-style: normal; 
     padding: 24px 0;
-    margin: auto;
+    margin-left: auto;
   }
   .address-list {
 display: flex;
@@ -213,7 +213,6 @@ overflow: hidden;
   }
   .list_description {
         background-color: #FFFFFF;
-        width: calc((100% - 3 * 24px) / 4);
         border-radius: 0px 0px 4px 4px;
         width: calc((100% - 72px) / 4);
   }
@@ -264,7 +263,6 @@ overflow: hidden;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
   }
 
   /*footer*/
@@ -273,9 +271,7 @@ overflow: hidden;
         background-color: #2e2f42;
         padding: 100px 0;
   }
-  .container {
-    padding-bottom: 100px;
-  }
+  
 
    .logo {
          color: #4d5ae5;
@@ -307,7 +303,7 @@ overflow: hidden;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        max-width: 1158px;
+        max-width: 264px;
   }
 
   h1, 

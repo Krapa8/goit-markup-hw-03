@@ -196,6 +196,7 @@ padding: 0;
   .team_section_description {
      background-color: #F4F4FD;
      padding: 120px 0;
+     text-align: center;
   }
   .team-members-container {
     display: flex;
